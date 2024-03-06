@@ -47,21 +47,32 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingLeft: 20,
   },
-  boxSharedButton: {
+
+  exhibitionResultImc: {
     width: "100%",
-    alignItems: "center",
-    marginBottom: 10,
+    height: "50%",
   },
-  shared: {
-    backgroundColor: "#1877f2",
-    paddingTop: 5,
-    paddingBottom: 5,
-    borderRadius: 50,
-  },
-  sharedText: {
-    color: "#ffffff",
-    fontWeight: "bold",
+  listImcs: {
+    marginTop: 20,
+    width: "90%",
+    textAlign: "left",
     paddingHorizontal: 30,
+    paddingVertical: 20,
+    borderRadius: 10,
+    backgroundColor: "#d6d6d6",
+    marginBottom: 30,
+  },
+  resultImcItem: {
+    fontSize: 16,
+    color: "red",
+    height: 50,
+    fontWeight: "bold",
+    width: "100%",
+    paddingRight: 20,
+  },
+  textResultItemList: {
+    fontSize: 16,
+    color: "red",
   },
 });
 
