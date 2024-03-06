@@ -5,7 +5,7 @@ import styles from "./style";
 export default function Title() {
   return (
     <View style={styles.textTitle}>
-      <Text style={styles.textTitle}>ONEBITHEALTH</Text>
+      <Text style={styles.textTitle}>SUN HEALTH</Text>
     </View>
   );
 }
