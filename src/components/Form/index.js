@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Button, Vibration } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  Button,
+  Vibration,
+  TouchableOpacity,
+} from "react-native";
 import ResultImc from "./ResultImc";
 import styles from "./ResultImc/style";
 
@@ -57,7 +64,9 @@ export default function Form() {
           value={weight}
         />
         <Text style={styles.errorMessage}>{errorMessage}</Text>
-        <Button title={textButton} onPress={() => validationImc()} />
+        <TouchableOpacity>
+          <Button title={textButton} onPress={() => validationImc()} />
+        </TouchableOpacity>
       </View>
       <ResultImc messageResultImc={messageImc} resultImc={imc} />
     </View>

@@ -24,6 +24,22 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingLeft: 20,
   },
+  boxSharedButton: {
+    width: "100%",
+    alignItems: "center",
+    marginBottom: 10,
+  },
+  shared: {
+    backgroundColor: "#1877f2",
+    paddingTop: 5,
+    paddingBottom: 5,
+    borderRadius: 50,
+  },
+  sharedText: {
+    color: "#ffffff",
+    fontWeight: "bold",
+    paddingHorizontal: 30,
+  },
 });
 
 export default styles;
